@@ -12,19 +12,19 @@
 
 - El hook useState permite gestionar el estado local dentro de componentes funcionales de React. Su implementación facilita el control directo de variables dinámicas en la interfaz, brindando simplicidad y eficiencia en aplicaciones de pequeña escala o con lógica de estado limitada. 
 
-Representa la base del manejo de estados en React antes de incorporar soluciones globales más avanzadas.
+- Representa la base del manejo de estados en React antes de incorporar soluciones globales más avanzadas.
   
 2. **Zustand (gestión minimalista y reactiva):**
 
 - Zustand ofrece una alternativa ligera y flexible para la administración global del estado. Su arquitectura basada en hooks simplifica la comunicación entre componentes, evitando la complejidad de configuraciones extensas. 
 
-Gracias a su enfoque reactivo, mejora el rendimiento y mantiene un código más limpio y modular, ideal para proyectos que buscan escalabilidad sin sobrecargar la estructura.
+- Gracias a su enfoque reactivo, mejora el rendimiento y mantiene un código más limpio y modular, ideal para proyectos que buscan escalabilidad sin sobrecargar la estructura.
  
 3. **Redux Toolkit con createAsyncThunk (gestión estructurada y asíncrona):**
 
 - Redux Toolkit proporciona una solución robusta y estandarizada para la gestión global del estado. Su integración con createAsyncThunk permite manejar operaciones asíncronas de manera eficiente, asegurando consistencia en la manipulación de datos provenientes de APIs u otras fuentes externas. 
 
-Este enfoque fomenta una arquitectura predecible, escalable y alineada con los principios modernos de desarrollo en React. 
+- Este enfoque fomenta una arquitectura predecible, escalable y alineada con los principios modernos de desarrollo en React. 
 
 El proyecto demuestra dominio en el manejo de flujos de datos, refactorización progresiva del estado y la implementación de lógica asíncrona simulando la carga de productos desde una API.
 
