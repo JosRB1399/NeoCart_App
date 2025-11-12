@@ -1,0 +1,13 @@
+.footer {
+  background-color: #9b59ff; /* igual que el header */
+  color: var(--text-light); /* texto blanco */
+  text-align: center;
+  padding: 1.2rem 0;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  margin-top: 5rem;
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+  box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.2); /* sombra arriba */
+}
+

@@ -1,0 +1,84 @@
+.cart-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  position: relative;
+  font-weight: 600;
+  color: #333;
+}
+
+.cart-icon {
+  color: #333;
+  transition: transform 0.2s;
+}
+
+.cart-container:hover .cart-icon {
+  transform: scale(1.1);
+}
+
+.cart-text {
+  font-size: 1rem;
+}
+
+.cart-badge {
+  background-color: #ede4ff; /* Morado más claro */
+  color: #7a42c8; /* Texto morado visible */
+  font-size: 0.75rem;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 🔮 Estilos adicionales para el Header con carrito y modo oscuro */
+.header {
+  background-color: var(--bg-dark);
+  color: white;
+  padding: 1.5rem 2rem;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-content {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-title h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.cart-indicator {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.cart-count {
+  position: absolute;
+  top: -8px;
+  right: -10px;
+  background-color: var(--accent);
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 50%;
+  padding: 3px 6px;
+}
+
